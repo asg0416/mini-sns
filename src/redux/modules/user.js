@@ -4,7 +4,6 @@ import { produce } from "immer";
 import { setCookie, getCookie, deleteCookie } from "../../shared/Cookie";
 import { auth } from "../../shared/firebase";
 import firebase from "firebase";
-import { apiKey } from "../../shared/firebase";
 
 // Action
 const SET_USER = "SET_USER";
